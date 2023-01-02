@@ -1,0 +1,30 @@
+body {
+  background-color: darkblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1em;
+  color: var(--text-color);
+  margin-bottom: 0.3em;
+  text-decoration: underline;
+  left: 200px;
+  top: 10px;
+}
+
+h2 {
+  color: var(--text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+:root {
+  --r: 255;
+  --g: 255;
+  --b: 255;
+  --text-color: rgb(var(--r), var(--g), var(--b));
+}
