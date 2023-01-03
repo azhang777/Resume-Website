@@ -1,0 +1,24 @@
+<h2>Professional Summary</h2>
+<p>
+  Highly adaptable and dependable student who wants to explore career
+  opportunities early. Seeks improvement in terms of social and work skills.
+  Positive and hardworking in order to reach beyond standards to achieve goals
+  and dreams.
+</p>
+<h2>Skills</h2>
+<p>
+  ● Leadership Experience ● Knowledge in mySQL ● Open-minded ● Java, Javascript,
+  C++ ● Communicative ● Software Development & Testing
+</p>
+<h2>Expierience</h2>
+<h2>Education</h2>
+<p>
+  August 2021 - December 2022 Delaware Technical Community College, Stanton
+  Associate of Science: Computer and Information Science December 2022 - Ongoing
+  University of Delaware Bachelors of Science: Computer Science
+</p>
+
+must be careful about how elements are within eachother. .profile .skill_set did
+not work because the skill_set class is not within the profile class. It was
+outside of it so therefore we couldn't configure .profile .skill_set rather just
+use .skill_set
