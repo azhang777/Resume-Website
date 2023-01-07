@@ -13,14 +13,18 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <script defer src="put this to a java file"></script>
+    <script defer src="logic.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="left_side">
         <div class="profile">
           <div class="image_box">
-            <img src="sus.png" alt="put other image in case it doesn't load." />
+            <img
+              src="sus.png"
+              alt="put other image in case it doesn't load."
+              draggable="false"
+            />
           </div>
           <div class="nameOf">
             <h2>Andy Zhang</h2>
@@ -89,7 +93,7 @@
       </div>
       <div class="right_side">
         <div class="slideshow_container">
-          <div class="slide">
+          <div class="mySlides fade">
             <h2>Professional Summary</h2>
             <p>
               Highly adaptable and dependable student who wants to explore
@@ -98,7 +102,7 @@
               standards to achieve goals and dreams.
             </p>
           </div>
-          <div class="slide">
+          <div class="mySlides fade">
             <h2>Education</h2>
             <ul>
               <li>
@@ -113,11 +117,18 @@
               </li>
             </ul>
           </div>
-          <div class="slide"></div>
-          <div class="slide"></div>
+          <div class="mySlides fade">
+            <h2>Skills</h2>
+          </div>
           <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
           <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <div class="dot_container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <!-- The dots/circles -->
         <!-- <div class="description">
           <h2>Professional Summary</h2>
           <p>
