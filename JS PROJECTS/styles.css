@@ -1,7 +1,7 @@
 body {
   /*background: url("");*/
   font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,29 +16,15 @@ body {
   background: white;
   margin: 50px;
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  box-shadow: 10px 10px 60px 4px rgba(0, 0, 0, 0.75);
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 5px 5px 20px 4px rgba(0, 0, 0, 0.3);
 }
 
 .container .left_side {
   color: #1a1a1d;
   position: relative;
-  background: #950740;
+  background: #ffdfde;
   padding: 15px;
-}
-
-.container .right_side {
-  color: whitesmoke;
-  position: relative;
-  background: #1a1a1d;
-  padding: 30px;
-}
-
-.bar {
-  margin: 10px -10px 0px -10px;
-  padding-left: 0;
-  list-style-type: none;
-  border-bottom: 3px solid #1a1a1d;
 }
 
 .link {
@@ -50,7 +36,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 .image_box {
@@ -69,25 +55,65 @@ body {
 
 .nameOf h2 {
   font-size: 1.4em;
+  margin: 25px 0px 0px 0px;
 }
 
-.mySlides h2 {
-  text-align: center;
-  font-size: 2em;
+.title {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 25px 0px 10px 0px;
+}
+
+.contact_information ul {
+  position: relative;
+  padding-left: 10px;
   margin: 10px 0px 5px 0px;
 }
 
 .contact_information ul li {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin: 10px 5px 10px 5px; /* top,right,bottom,left*/
+  position: relative;
+  list-style: none;
+  margin: 10px 0px;
 }
 
-.details {
-  margin-left: 30px;
+.icon {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 18px;
 }
-.slideshow-container {
+
+.education h5 {
+  font-weight: 1000;
+  margin: 10px 0px 5px 0px;
+}
+
+.education h4 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 1000;
+}
+
+.education h4:nth-child(2) {
+  margin: 0px 0px 5px 0px;
+  font-weight: 400;
+}
+
+.container .right_side {
+  color: whitesmoke;
+  position: relative;
+  background: #6a7ba2;
+  padding: 30px;
+}
+
+.description {
+}
+/* .mySlides h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 0px 5px 0px;
+} */
+
+/* .slideshow-container {
   max-width: 1000px;
   position: relative;
   margin: 20px 10px 20px 10px;
@@ -160,5 +186,4 @@ body {
   }
   to {
     opacity: 1;
-  }
-}
+  } */
