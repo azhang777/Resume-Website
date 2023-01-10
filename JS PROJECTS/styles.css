@@ -105,7 +105,49 @@ body {
   padding: 30px;
 }
 
-.description {
+.box {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+}
+
+.work_experience .box .year_and_company h5 {
+  text-transform: uppercase;
+  margin: 0px 0px 5px 0px;
+  min-width: 150px;
+  font-weight: 800;
+}
+
+.work_experience .box .text h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+.work_experience .box .text p {
+  margin: 5px 0px 5px 0px;
+}
+
+.skills .column {
+  float: left;
+  width: 50%;
+}
+
+.skills .box {
+  margin: 0px 0px 20px 0px;
+}
+
+.skills .box h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+.interest ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 0px 0px 0px;
+}
+
+.interest ul li {
+  list-style: none;
+  padding: 10px 10px 10px 10px;
 }
 /* .mySlides h2 {
   text-align: center;
