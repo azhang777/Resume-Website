@@ -1,7 +1,7 @@
 body {
   /*background: url("");*/
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: whitesmoke;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +11,9 @@ body {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;
   min-height: 500px;
-  background: white;
+  background: whitesmoke;
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -130,6 +130,9 @@ body {
   margin: 20px 0px;
 }
 
+.summary p {
+  margin: 0px 0px 0px 0px;
+}
 .work_experience .box .year_and_company h5 {
   text-transform: uppercase;
   margin: 0px 0px 5px 0px;
@@ -156,7 +159,54 @@ body {
 }
 .skills .column ul li {
   list-style: none;
-  padding: 0px 0px 10px 0px;
+}
+
+.skills .skills_text {
+  display: inline;
+  font-weight: 100;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.skill_level {
+  margin: 5px 0px 5px 0px;
+  display: block;
+  max-width: 200px;
+  opacity: 0;
+}
+
+.skill_level.appear {
+  animation: fade 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.skill_level.disappear {
+  animation: fade 1s;
+  animation-fill-mode: backwards;
+}
+.skills .skill_level .percent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 15px;
+  border-radius: 50px;
+  background: whitesmoke;
+}
+
+.skills .skill_level .percent div {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #ffdfde;
 }
 
 .interest ul {

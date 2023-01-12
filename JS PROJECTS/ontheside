@@ -1,4 +1,4 @@
-<h2>Professional Summary</h2>
+<!-- <h2>Professional Summary</h2>
 <p>
   Highly adaptable and dependable student who wants to explore career
   opportunities early. Seeks improvement in terms of social and work skills.
@@ -21,7 +21,7 @@
 must be careful about how elements are within eachother. .profile .skill_set did
 not work because the skill_set class is not within the profile class. It was
 outside of it so therefore we couldn't configure .profile .skill_set rather just
-use .skill_set
+use .skill_set -->
 
 
         <!-- <div class="slideshow_container">
@@ -84,3 +84,119 @@ use .skill_set
         </div> -->
 
 
+
+        <!-- /* .mySlides h2 {
+  text-align: center;
+  font-size: 2em;
+  margin: 10px 0px 5px 0px;
+} */
+
+/* .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 20px 10px 20px 10px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.dot_container {
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  top: 470px;
+  left: 0px;
+  right: 0px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.2;
+  }
+  to {
+    opacity: 1;
+  } */ -->
+
+
+  
+// let slideIndex = 1;
+// showSlides(slideIndex);
+
+// // Next/previous controls
+// function plusSlides(n) {
+//   showSlides((slideIndex += n));
+// }
+
+// // Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides((slideIndex = n));
+// }
+
+// function showSlides(n) {
+//   let i;
+//   let slides = document.getElementsByClassName("mySlides");
+//   let dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {
+//     slideIndex = 1;
+//   }
+//   if (n < 1) {
+//     slideIndex = slides.length;
+//   }
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex - 1].style.display = "block";
+//   dots[slideIndex - 1].className += " active";
+// }

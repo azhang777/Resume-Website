@@ -17,5 +17,12 @@ function describeUser() {
   }
 }
 
+const example = document.getElementById("example");
+example.addEventListener("mouseover", function () {
+  example.innerHTML = "New content";
+});
+example.addEventListener("mouseout", function () {
+  example.innerHTML = "Original content";
+});
 //both js and html file need to be saved for it to work.
 //if both html and js file are in the same directory, src=jsfile, no need for / or ./
