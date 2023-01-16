@@ -1,0 +1,86 @@
+<h2>Professional Summary</h2>
+<p>
+  Highly adaptable and dependable student who wants to explore career
+  opportunities early. Seeks improvement in terms of social and work skills.
+  Positive and hardworking in order to reach beyond standards to achieve goals
+  and dreams.
+</p>
+<h2>Skills</h2>
+<p>
+  ● Leadership Experience ● Knowledge in mySQL ● Open-minded ● Java, Javascript,
+  C++ ● Communicative ● Software Development & Testing
+</p>
+<h2>Expierience</h2>
+<h2>Education</h2>
+<p>
+  August 2021 - December 2022 Delaware Technical Community College, Stanton
+  Associate of Science: Computer and Information Science December 2022 - Ongoing
+  University of Delaware Bachelors of Science: Computer Science
+</p>
+
+must be careful about how elements are within eachother. .profile .skill_set did
+not work because the skill_set class is not within the profile class. It was
+outside of it so therefore we couldn't configure .profile .skill_set rather just
+use .skill_set
+
+
+        <!-- <div class="slideshow_container">
+          <div class="mySlides fade">
+            <h2>Professional Summary</h2>
+            <p>
+              Highly adaptable and dependable student who wants to explore
+              career opportunities early. Seeks improvement in terms of social
+              and work skills. Positive and hardworking in order to reach beyond
+              standards to achieve goals and dreams.
+            </p>
+          </div>
+          <div class="mySlides fade">
+            <h2>Education</h2>
+            <div class="details">
+              <h5>Current:</h5>
+              <h4>University of Delaware</h4>
+              <h4>B.S in Computer Science</h4>
+              <h5>2021-2022:</h5>
+              <h4>Delaware Technical Community College</h4>
+              <h4>A.S in Computer and Information Science</h4>
+            </div>
+          </div>
+          <div class="mySlides fade">
+            <h2>Skills</h2>
+          </div>
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="dot_container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span> -->
+          
+        <!-- The dots/circles -->
+        <!-- <div class="description">
+          <h2>Professional Summary</h2>
+          <p>
+            Highly adaptable and dependable student who wants to explore career
+            opportunities early. Seeks improvement in terms of social and work
+            skills. Positive and hardworking in order to reach beyond standards
+            to achieve goals and dreams.
+          </p>
+          <h2></h2>
+        </div>
+        <div class="education">
+          <h2>Education</h2>
+          <ul class="bar">
+            <li>
+              <h5>Current:</h5>
+              <h4>University of Delaware</h4>
+              <h4>B.S in Computer Science</h4>
+            </li>
+            <li>
+              <h5>2021-2022:</h5>
+              <h4>Delaware Technical Community College</h4>
+              <h4>A.S in Computer and Information Science</h4>
+            </li>
+          </ul>
+        </div> -->
+
+
