@@ -1,7 +1,7 @@
 body {
   /*background: url("");*/
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
+  background-color: #a6bb8d;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,9 +11,9 @@ body {
 .container {
   position: relative;
   width: 100%;
-  max-width: 1000px;
+  max-width: 800px;
   min-height: 500px;
-  background: white;
+  background: whitesmoke;
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -21,9 +21,9 @@ body {
 }
 
 .container .left_side {
-  color: #1a1a1d;
+  color: #eae7b1;
   position: relative;
-  background: #ffdfde;
+  background: #3c6255;
   padding: 15px;
 }
 
@@ -105,9 +105,9 @@ body {
 }
 
 .container .right_side {
-  color: whitesmoke;
+  color: #3c6255;
   position: relative;
-  background: #6a7ba2;
+  background: #eae7b1;
   padding: 30px;
 }
 
@@ -121,7 +121,7 @@ body {
   display: block;
   width: 32px;
   padding-top: 3px;
-  border-bottom: 3px solid whitesmoke;
+  border-bottom: 3px solid #61876e;
 }
 
 .box {
@@ -130,6 +130,9 @@ body {
   margin: 20px 0px;
 }
 
+.summary p {
+  margin: 0px 0px 0px 0px;
+}
 .work_experience .box .year_and_company h5 {
   text-transform: uppercase;
   margin: 0px 0px 5px 0px;
@@ -154,9 +157,71 @@ body {
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
 }
+
 .skills .column ul li {
   list-style: none;
-  padding: 0px 0px 10px 0px;
+}
+
+.skills .skills_text {
+  display: inline;
+  font-weight: 100;
+  animation: flash 2s infinite;
+  transform-origin: center;
+}
+
+@keyframes flash {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.skills .skill_level {
+  margin: 10px 0px 10px 0px;
+  display: block;
+  max-width: 200px;
+  opacity: 0;
+}
+
+.skills .skill_level.appear {
+  animation: fadeIn 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+}
+
+.skills .skill_level .percent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 15px;
+  border-radius: 50px;
+  background: whitesmoke;
+}
+
+.skills .skill_level .percent div {
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #a6bb8d;
 }
 
 .interest ul {
