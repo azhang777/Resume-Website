@@ -1,0 +1,237 @@
+<!-- Website based on the layout of this video https://www.youtube.com/watch?v=hnjHCmaUVPg&t=540s&ab_channel=OnlineTutorials -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="discription" content="Andy Zhang's portfolio website" />
+    <title>Andy Zhang</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="logic.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left_side">
+        <div class="profile">
+          <div class="image_box">
+            <img
+              src="template.png"
+              alt="template.png"
+              draggable="false"
+            />
+          </div>
+          <div class="nameOf">
+            <h2>Andy Zhang</h2>
+          </div>
+        </div>
+        <div class="contact_information">
+          <ul>
+            <h3 class="left_title">My Links</h3>
+            <li>
+              <span class="icon">
+                <a
+                  class="link"
+                  href="https://www.linkedin.com/in/azhang77/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-linkedin"></i
+                >
+              </span>
+              <h4 class="icon_text">Connect with me</h4>
+            </a>
+            </li>
+            <li>
+              <span class="icon">
+                <a
+                  class="link"
+                  href="https://github.com/azhang777"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-github"></i
+                >
+              </span>
+              <h4 class="icon_text">Personal projects</h4>
+            </a>
+            </li>
+            <li>
+              <span class="icon">
+                <a
+                  class="link"
+                  href="mailto:andyzhanggm@gmail.com?subject=Email Subject&body=Email Body"
+                  target="_blank"
+                  ><i class="fa-solid fa-envelope"></i
+                >
+              </span>
+              <h4 class="icon_text">Reach out</h4>
+            </a> 
+            <!-- I want to have text and icon linked. Thats why the a tag looks weird. -->
+            </li>
+          </ul>
+        </div>
+        <div class="contact_information education">
+          <ul>
+            <h3 class="left_title">Education</h3>
+            <li>
+              <h5>Current</h5>
+              <h4>University of Delaware</h4>
+              <h4>B.S. in Computer Science</h4>
+            </li>
+            <li>
+              <h5>2021-2022</h5>
+              <h4>Delaware Technical Community College</h4>
+              <h4>A.S in Computer and Information Science</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="right_side">
+        <div class="summary">
+          <h2 class="right_title">Summary</h2>
+          <div class="box">
+            <p>
+              Highly adaptable and dependable student who wants to explore career
+              opportunities early. Seeks improvement in terms of social and work
+              skills. Positive and hardworking in order to reach beyond standards
+              to achieve goals and dreams.
+            </p>
+          </div>
+        </div>
+        <div class="work_experience">
+          <h2 class="right_title">Experience</h2>
+          <div class="box">
+            <div class="year_and_company">
+              <h5>2021 - Current</h5>
+              <h5>China Inn</h5>
+            </div>
+            <div class="text">
+              <h4>Waiter</h4>
+              <li>
+                Greeted guests, recorded orders, and coordinated well-timed
+                delivery to reduce delays.
+              </li>
+              <li>
+                Prepared side dishes/appetizers to support kitchen operations.
+              </li>
+            </div>
+          </div>
+        </div>
+        <div class="skills">
+          <h2 class="right_title">Skills</h2>
+          <div class="box">
+            <div class="column">
+              <ul>
+                <li>
+                  <span class="icon">
+                    <i class="fa-brands fa-java"></i>
+                  </span>
+                  <h4 class="skills_text" id="java">Java</h4>
+                  <div class="skill_level" id="java_level">
+                    <div class="percent">
+                      <div style="width: 80%"></div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-brands fa-js"></i>
+                  </span>
+                  <h4 class="skills_text" id="javascript">Javascript</h4>
+                  <div class="skill_level" id="javascript_level">
+                    <div class="percent">
+                      <div style="width: 60%"></div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-code"></i>
+                  </span>
+                  <h4 class="skills_text" id="cplusplus">C++</h4>
+                  <div class="skill_level" id="cplusplus_level">
+                    <div class="percent">
+                      <div style="width: 60%"></div>
+                    </div>
+                  </div>
+                <!-- I want to have text and icon linked. Thats why the a tag looks weird. -->
+                </li>
+              </ul>
+            </div>
+            <div class="column">
+              <ul>
+                <li>
+                  <span class="icon">
+                    <i class="fa-brands fa-html5"></i>
+                  </span>
+                  <h4 class="skills_text" id="html">HTML</h4>
+                  <div class="skill_level" id="html_level">
+                    <div class="percent">
+                      <div style="width: 50%"></div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-brands fa-css3-alt"></i>
+                  </span>
+                  <h4 class="skills_text" id="css">CSS</h4>
+                  <div class="skill_level" id="css_level">
+                    <div class="percent">
+                      <div style="width: 50%"></div>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <span class="icon">
+                    <i class="fa-solid fa-database"></i>
+                  </span>
+                  <h4 class="skills_text" id="mySQL">mySQL</h4>
+                  <div class="skill_level" id="mySQL_level">
+                    <div class="percent">
+                      <div style="width: 40%"></div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="interest">
+            <h2 class="right_title">Interest</h2>
+            <ul>
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-robot"></i>
+                </span>
+                <h4 class="icon_text">Artificial Intelligence</h4>
+              </li>
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-heart"></i>
+                </span>
+                <h4 class="icon_text">Fitness</h4>
+              </li>
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-gamepad"></i>
+                </span>
+                <h4 class="icon_text">Video Games</h4>
+              </li>
+              <li>
+                <span class="icon">
+                  <i class="fa-solid fa-music"></i>
+                </span>
+                <h4 class="icon_text">Music</h4>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
